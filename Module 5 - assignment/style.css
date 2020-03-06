@@ -22,11 +22,30 @@ body {
   max-width: 1400px;
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 10px;
+  line-height: 17px;
 }
 
 p {
   text-indent: 20px;
   letter-spacing: 1px;
+}
+
+a:link {
+  color: maroon;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  background: lightgray;
+  text-decoration: none;
+}
+a:focus {
+  border-bottom: 1px solid;
+}
+ul.nav-bar {
+  list-style: none;
+  
 }
 
 /* Layout */
@@ -46,6 +65,7 @@ aside {
 nav {
 
 }
+
 
 footer {
 
