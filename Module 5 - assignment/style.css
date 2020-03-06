@@ -48,7 +48,7 @@ a:focus {
   font: bold 20px Arial;
   background-color: #EEEEEE;
   color: maroon;
-  padding: 2px 6px 2px 6px;
+  padding: 3px 3px 3px 3px;
   text-decoration: none;
 }
 ol {
@@ -59,19 +59,20 @@ ol {
 /* Layout */
 
 section {
-
+  display: flex;
+  flex-direction: column;
 }
 
-
 main {
-
+display: flex;
 }
 
 aside {
+
 }
 
 nav {
-
+display: flex;
 }
 
 
